@@ -8,4 +8,4 @@ This is the final project for our fall 2021 Internet of Things class. The object
 ## Summery
 
 The final product is be a server/database backend and an android application (.APK) and a Website to download the app.
-![Screenshots](/49erSense.svg)
+![Screenshots](images/49erSense.svg)
