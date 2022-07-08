@@ -1,0 +1,6 @@
+The htdocs php files all use the database.php to generate a connection to the mysql db.
+The credentals for connecting to the DB are set in the database.php file.
+	$ServIP: The ip address of the mysql database.
+	$ServUName: The username for the database.
+	$ServPass: The password for the database.
+	$ServName: The name of the database. (should be "iotsec")

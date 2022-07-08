@@ -1,0 +1,36 @@
+The database is sperated into 6 tables
+	Doors: Holds the information for all doors and windows monitored my the system.
+		ID: The name of the door.
+		Open: If the door is open or closed.
+		Locked: If the door is Locked.
+	HVAC: Holds the data for the HVAC systems
+		ID: The name of the HVAC Unit.
+		Mode: The mode the unit is in. [off, cool, heat]
+		Fan: The fan mode the unit is in. [auto, on]
+		Temp: The temp the unit is set to.
+	Lights: Holds the information for all the lights monitored by the system.
+		ID: The name of the Light.
+		Level: The Dimmer level of the light. [0 = off x > 1 = on]
+	Sensors: Holds the information from monitored sensors. (Motion, Temp, Light level, sound, etc...)
+		ID: The name of the sensor.
+		Level: The level the sensor is reading.
+	System: Holds the general information for the system. (Name for the system, Armed status)
+		SysID: The name of the house.
+		Armed: If the system is armed or not. [0 = disarmed, 1 = armed here, 2 = armed away]
+	Weather: Holds the weather data from the server
+		ID: The day that weather data beloongs to.
+		Sunrise: The time the sun should rise that day.
+		Sunset: The time the sun should set that day.
+		TempMax: The max temp expected for the day.
+		TempMin: The min temp expected for the day.
+		FeelsLikeMax: The max temp the day shoudl feel like that day.
+		FeelsLikeMin: The min temp the day should feel like that day.
+		Presure: The expected presure for the day.
+		Humidity: The expected Humidity for the day.
+		UVIndex: The expected UV Index for the day. 
+		CloudCover: The expected Cloud Cover for the day.
+		WindSpeed: The expected Wind Speed for the day.
+		WindDirection: The expected Wind direction for the day.
+		WeatherType: A discription of the weather for that day.
+		ChanceOfRain: The expected chance of rain for the day.
+		Visability: The expected visability for that day. [-1 if not used]

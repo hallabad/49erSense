@@ -1,0 +1,40 @@
+serverAddress: 192.168.5.149
+serverPort: 5001
+nodeID: floor1
+doors: 
+  - GarageDoor 1
+  - GarageDoor 2
+  - GarageDoor Door
+  - Frount Door
+  - Side Door
+  - Back Door
+lights: 
+  - Kitchen Pot
+  - Kitchen Sink
+  - Kitchen Table
+  - Livingroom Pot
+  - Livingroom Fan
+  - Garage Pot
+  - Entryway
+sensors: 
+  temp:
+      - Livingroom
+      - Kitchen
+      - Garage
+      - Entryway
+  light:
+      - Livingroom
+      - Kitchen
+      - Garage
+      - Entryway
+  motion:
+      - Livingroom
+      - Kitchen
+      - Garage
+      - Entryway
+windows: 
+  - Kitchen Windows
+  - Livingroom Windows
+  - Garage Windows
+hvac:
+  - Floor 1

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hassa/AndroidStudioProjects/49er/app/src/main/res/layout/SplashActivity.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/hassa/AndroidStudioProjects/49er/app/src/main/res/layout/activity_login.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/hassa/AndroidStudioProjects/49er/app/src/main/res/layout/activity_loginb.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/hassa/AndroidStudioProjects/49er/app/src/main/res/layout/activity_main.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/hassa/AndroidStudioProjects/49er/app/src/main/res/layout/activity_register.xml" value="0.39814814814814814" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_alarm.xml" value="0.2851851851851852" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_camera.xml" value="0.275" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_doors.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_garage.xml" value="0.5" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_home.xml" value="0.45989583333333334" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_lights.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_lights_one_page.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_locks.xml" value="0.3171875" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_login.xml" value="0.3851851851851852" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_main.xml" value="0.284375" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_main_menu.xml" value="0.4728205128205128" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_motion.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_register.xml" value="0.284375" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_thermostats.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_user_info.xml" value="0.45989583333333334" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activity_weather.xml" value="0.31979166666666664" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/activiy_home.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/content_garage.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/content_lights.xml" value="0.387037037037037" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/content_thermostats.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_first.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_first2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_garage.xml" value="0.45989583333333334" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_home.xml" value="0.26851851851851855" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_second.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_second2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/fragment_second3.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/light_adapter.xml" value="0.387037037037037" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/layout/splash_activity.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/menu/menu_main_menu.xml" value="0.3851851851851852" />
+        <entry key="..\:/Users/hassa/Documents/GitHub/FortyNinerSense/Phase 1/49er/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3787037037037037" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.45989583333333334" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

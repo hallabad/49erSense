@@ -1,0 +1,1 @@
+App - is subfolder with the PHP files and the APK

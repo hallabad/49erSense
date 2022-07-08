@@ -1,0 +1,43 @@
+dbAddress: jdbc:mysql://192.168.5.247:3306/iotsec
+dbPassword: SecretPass
+dbUsername: secserv
+weatherAPIKey: c332fb952b2e92a41a7905da805c7620
+houseLong: -80.843124
+houseLat: 35.227085
+weatherExclude: minutely,hourly,alerts
+weatherUnits: imperial
+weatherlang : en
+doors: 
+  - GarageDoor 1
+  - GarageDoor 2
+  - GarageDoor Door
+  - Frount Door
+  - Side Door
+  - Back Door
+lights: 
+  - Kitchen Pot
+  - Kitchen Sink
+  - Kitchen Table
+  - Livingroom Pot
+  - Livingroom Fan
+  - Bed 1 Pot
+  - Bed 1 Fan
+  - Bed 2 Pot
+  - Bed 2 Fan
+  - Garage Pot
+  - Entryway
+sensors: 
+  - A
+  - B
+  - C
+  - D
+  - E
+windows: 
+  - Kitchen Windows
+  - Livingroom Windows
+  - Bed 1 Windows
+  - Bed 2 Windows
+  - Garage Windows
+hvac:
+  - Floor 1
+  - Floor 2

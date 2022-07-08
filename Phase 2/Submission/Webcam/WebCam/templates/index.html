@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>Live Camera</title>
+  </head>
+  <body>
+	<h1 style="text-align: center;">Live Camera Footage</h1>
+	<p><img src="{{ url_for('video_feed') }}" /></p>
+    <h2><a href="{{ url_for('motion_detect') }}"></a> </h2>
+  </body>
+</html>

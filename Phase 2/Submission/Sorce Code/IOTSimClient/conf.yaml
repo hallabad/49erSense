@@ -1,0 +1,23 @@
+serverAddress: 192.168.5.52
+serverPort: 5001
+nodeID: floor2
+doors:
+lights:
+  - Bed 1 Pot
+  - Bed 1 Fan
+  - Bed 2 Pot
+  - Bed 2 Fan
+sensors: 
+  temp:
+    - Bed 1
+    - Bed 2
+  light:
+    - Bed 1
+    - Bed 2
+  motion:
+    - Hallway
+windows:
+  - Bed 1 Windows
+  - Bed 2 Windows
+hvac:
+  - Floor 2

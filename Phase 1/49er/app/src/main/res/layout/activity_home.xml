@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:id="@+id/layout"
+android:layout_height="match_parent">
+tools:context=".HomeActivity"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:onClick="gotoUserInfo"
+            android:text="User Info"
+            app:icon="@drawable/streamline_icon_interface_user_home_48x48"
+            app:iconSize="32dp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="222dp">
+
+            <TextView
+                android:id="@+id/textViewGtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Security System"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/toggleButtonGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewAlarm"
+                app:singleSelection="true">
+
+                <Button
+                    android:id="@+id/buttonArmStay"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setArmS"
+                    android:text="Arm Stay" />
+
+                <Button
+                    android:id="@+id/buttonAcArmAway"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setArmA"
+                    android:text="Arm Away" />
+
+                <Button
+                    android:id="@+id/buttonDisArm"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setDis"
+                    android:text="Disarm" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <TextView
+                android:id="@+id/textViewAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/textViewGtitle" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="16dp"
+                android:text="System is :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewGtitle" />
+
+            <Button
+                android:id="@+id/buttonWindows"
+                android:layout_width="312dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoDoors"
+                android:text="Doors/Windows"
+                app:icon="@drawable/streamline_icon_interface_home_4_48x48"
+                app:iconGravity="textStart"
+                app:iconSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButtonGroup" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonGarage"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoGarage"
+                android:text="Garage Doors"
+                app:icon="@drawable/streamline_icon_interface_home_3_48x48"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonMotion" />
+
+            <Button
+                android:id="@+id/buttonMotion"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoMotion"
+                android:text="Motion Detectors"
+                app:icon="@drawable/streamline_icon_computer_chip_1_48x48"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonLocks"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoLocks"
+                android:text="Locks"
+                app:icon="@drawable/streamline_icon_interface_lock_48x48"
+                app:iconSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonLights" />
+
+            <Button
+                android:id="@+id/buttonTherm"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoThermo"
+                android:text="Thermostat | AC"
+                app:icon="@drawable/streamline_icon_interface_weather_temperature_48x48"
+                app:iconSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonGarage" />
+
+            <Button
+                android:id="@+id/buttonLights"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoLight"
+                android:text="Lights"
+                app:icon="@drawable/streamline_icon_interface_lighting_light_bulb_on_48x48"
+                app:iconPadding="0dp"
+                app:iconSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonTherm" />
+
+            <Button
+                android:id="@+id/buttonMotion2"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoCamera"
+                android:text="Live Camera"
+                app:icon="@drawable/streamline_icon_computer_webcam_video_48x48"
+                app:iconSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonLocks" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="190dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:onClick="gotoWeather"
+                android:text="Weather"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonMotion2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <WebView
+            android:id="@+id/cWebView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
